@@ -34,5 +34,3 @@ A lightweight **Model Contextual Protocol (MCP)**-based server for weather and f
 
 ---
 
-## 📁 Project Structure
-
