@@ -1,14 +1,44 @@
- MCP Weather & Forecast Server
-This project is a Model Contextual Protocol (MCP)-based server that delivers real-time weather and forecast responses using Claude Desktop as the runtime. It demonstrates how contextual prompting and modular AI tools can be combined for a practical application.
+# 🌦️ MCP Weather & Forecast Server
 
-**Features**
-Real-time current weather and multi-day forecasts
-Structured prompt-response flow using MCP protocol
-Modular and extendable design
-Powered by Claude Desktop for local AI interaction
+A lightweight **Model Contextual Protocol (MCP)**-based server for weather and forecast queries, powered by **Claude Desktop**. This project showcases the use of structured prompting and AI model orchestration to deliver real-time weather responses.
 
-**How It Works**
-User inputs a weather-related query (e.g., "What's the forecast for Paris tomorrow?")
-The MCP server formats the prompt contextually
-Claude Desktop handles the model interaction
-Response is parsed and delivered in a readable format
+> 🔗 [Live GitHub Repo](https://github.com/neharana2304/mcp-weather-server)
+
+---
+
+## 🚀 Features
+
+- Real-time **current weather** and **multi-day forecast** capability
+- Built using **Claude Desktop** for local inference
+- Structured prompt-response handling using the **MCP protocol**
+- Easy to extend for new data domains or use cases
+
+---
+
+## 🧠 How It Works
+
+1. User sends a natural language query (e.g., "What's the weather in Delhi tomorrow?")
+2. The server formats this into a structured MCP prompt
+3. Claude Desktop processes the input and generates the response
+4. The result is parsed and returned to the user
+
+---
+
+## 🛠️ Tech Stack
+
+- **Claude Desktop** (local model runtime)
+- **MCP Protocol**
+- **Python** for orchestration logic
+- *(Optional)* Weather API (e.g., OpenWeatherMap, if external data is used)
+
+---
+
+## 📸 Screenshot
+
+![MCP Weather Server Screenshot](screenshot.png)  
+*Replace `screenshot.png` with your actual screenshot file placed in the root folder.*
+
+---
+
+## 📁 Project Structure
+
