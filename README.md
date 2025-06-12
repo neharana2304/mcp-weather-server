@@ -31,12 +31,6 @@ A lightweight **Model Contextual Protocol (MCP)**-based server for weather and f
 - **Python** for orchestration logic
 - *(Optional)* Weather API (e.g., OpenWeatherMap, if external data is used)
 
----
-
-## 📸 Screenshot
-
-![MCP Weather Server Screenshot](screenshot.png)  
-*Replace `screenshot.png` with your actual screenshot file placed in the root folder.*
 
 ---
 
